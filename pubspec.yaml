@@ -1,0 +1,44 @@
+name: social_media_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.5.0
+  image_picker_web: ^3.1.1
+  file_picker: ^5.5.0
+  side_navigation: ^1.0.4
+  graphql_flutter: ^5.2.0-beta.5
+  supabase_flutter: ^1.10.21
+  get_it: ^7.6.4
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+ 
+  uses-material-design: true
+  assets:
+    - .env
+
+ 
